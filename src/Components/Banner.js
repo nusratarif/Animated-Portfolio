@@ -43,13 +43,13 @@ const Banner = () => {
                        
                       
                           <div className="header__buttons">
-                              <a href="" className="btn btn-outline">
+                              <button className="btn btn-outline">
                                   My Portfolio
-                              </a> 
+                              </button> 
                               &nbsp;&nbsp;&nbsp;
-                              <a href="" className="btn btn-smart">
+                              <button className="btn btn-smart">
                                   <FaPlay className="play"/>
-                              </a>
+                              </button>
 
                           </div>
                        </div>
