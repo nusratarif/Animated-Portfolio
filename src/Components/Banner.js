@@ -15,7 +15,7 @@ const Banner = () => {
     
     
     return (
-        <header className="header">
+        <header className="header" id="home">
            <div className="container">
                <div className="row">
                    <div className="col-6">
@@ -38,24 +38,10 @@ const Banner = () => {
                        onInit={(typewriter) => {
                            typewriter.typeString("I am web developer and also a Homeopathic Doctor").start();
                        }}/>
-                       </div>
-                       
-                       
-                      
-                          <div className="header__buttons">
-                              <button className="btn btn-outline">
-                                  My Portfolio
-                              </button> 
-                              &nbsp;&nbsp;&nbsp;
-                              <button className="btn btn-smart">
-                                  <FaPlay className="play"/>
-                              </button>
-
-                          </div>
-                       </div>
-                      
-                   </div>
-                   </div>
+                       </div>                
+                    </div>
+                </div>
+           </div>
                    <div className="col-6">
                        <div className="banner__img" data-aos="fade-left" data-aos-duration="3000"  data-aos-easing="linear">
                        <img src={img} alt="My Pic" height="300" />

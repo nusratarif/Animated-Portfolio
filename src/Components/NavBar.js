@@ -14,7 +14,7 @@ import { FaAlignJustify } from "react-icons/fa";
                 </ul>
                 {state ? (
                                 <ul className="navbar__right">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="#home">Home</a></li>
                                 <li><a href="#services">Services</a></li>
                                 <li><a href="#skills">Skills</a></li>
                                 <li><a href="#projects">Projects</a></li>
