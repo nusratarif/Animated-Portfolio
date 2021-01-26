@@ -479,8 +479,8 @@ body {
     
 }
 .contactCircle li {
-  width: 50px;
-  height: 5  0px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -498,7 +498,7 @@ body {
    color: #fff;
    width: 50px;
    height: 50px;
-   border-radius: 50%;
+   /* border-radius: 50%; */
    display: flex;
    align-items: center;
    justify-content: center;
@@ -525,12 +525,12 @@ body {
   }
   .navbar__right {
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     align-items: center;
     background: rgb(112, 16, 48);
     position: fixed;
     top: 0;
-    left: 0;
+    left: 200px;
   }
   .navbar__right li a{
     display: block;
@@ -593,8 +593,8 @@ body {
   padding-left: 30px;
 }
 .contactForm {
-  width: 500px;
-  margin-left: 20px;
+  width: 400px;
+  margin-left: 30px;
 }
 .projects {
   padding-right: 40px;
